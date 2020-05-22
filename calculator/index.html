@@ -1,0 +1,55 @@
+<html>
+    <head>
+<title>my calci2</title>
+<link rel="stylesheet" href="calci2.css">
+    </head>
+    <body>
+        <div class="imp">
+<h1>My Calculator</h1>
+<div>
+<form action="" class="dis">
+    <input  class="textview" name="textview" id="display">
+</form>
+<table class="tab">
+    <tr>
+        <td><input class="button" type="button" value="9" onclick="insert(9)"id=""></td>
+        <td><input class="button" type="button" value="8" onclick="insert(8)"id=""></td>
+        <td><input class="button" type="button" value="7" onclick="insert(7)"id=""></td>
+        <td><input class="button" type="button" value="*" onclick="insert('*')" id=""></td>
+    </tr>
+   <tr>
+        <td><input class="button" type="button" value="6" onclick="insert(6)" id=""></td>
+        <td><input class="button" type="button" value="5" onclick="insert(5)" id=""></td>
+        <td><input class="button" type="button" value="4" onclick="insert(4)" id=""></td>
+        <td><input class="button" type="button" value="+" onclick="insert('+')" id=""></td>
+   </tr>
+    <tr>
+        <td><input class="button" type="button" value="3"  onclick="insert(3)"id=""></td>
+        <td><input class="button" type="button" value="2"  onclick="insert(2)"id=""></td>
+        <td><input class="button" type="button" value="1"  onclick="insert(1)" 
+        id=""></td>
+        <td><input class="button" type="button" value="-" onclick="insert('-')" id=""></td>
+       
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="=" onclick="equal()" id=""></td>
+        <td><input class="button" type="button" value="0"  onclick="insert('0')" id=""></td>
+        <td><input class="button" type="button" value="/" onclick="insert('/')" id=""></td>
+        <td><input class="button" type="button" value="%" onclick="insert('%')" id=""></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="." onclick="insert('.')" id=""></td>
+        <td><input class="button" type="button" value="clr" onclick="clr()" id=""></td>
+        <td colspan="2"><input class="button" style="width:110px;" type="button" value="del"  onclick="del()" id=""></td>
+        
+    </tr>
+</table>
+
+
+
+</div>
+</div>
+
+        <script src="calci2.js"></script>
+    </body>
+</html>
